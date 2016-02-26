@@ -13,6 +13,7 @@
 		BCE3D2991C80226A00A20F7A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCE3D2971C80226A00A20F7A /* Main.storyboard */; };
 		BCE3D29B1C80226A00A20F7A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCE3D29A1C80226A00A20F7A /* Assets.xcassets */; };
 		BCE3D29E1C80226A00A20F7A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCE3D29C1C80226A00A20F7A /* LaunchScreen.storyboard */; };
+		BCE3D2A71C80272200A20F7A /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = BCE3D2A61C80272200A20F7A /* Student.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		BCE3D29A1C80226A00A20F7A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BCE3D29D1C80226A00A20F7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BCE3D29F1C80226A00A20F7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCE3D2A51C80272200A20F7A /* Student.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
+		BCE3D2A61C80272200A20F7A /* Student.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +63,8 @@
 			children = (
 				BCE3D2911C80226A00A20F7A /* AppDelegate.h */,
 				BCE3D2921C80226A00A20F7A /* AppDelegate.m */,
+				BCE3D2A51C80272200A20F7A /* Student.h */,
+				BCE3D2A61C80272200A20F7A /* Student.m */,
 				BCE3D2941C80226A00A20F7A /* ViewController.h */,
 				BCE3D2951C80226A00A20F7A /* ViewController.m */,
 				BCE3D2971C80226A00A20F7A /* Main.storyboard */,
@@ -152,6 +157,7 @@
 				BCE3D2961C80226A00A20F7A /* ViewController.m in Sources */,
 				BCE3D2931C80226A00A20F7A /* AppDelegate.m in Sources */,
 				BCE3D2901C80226A00A20F7A /* main.m in Sources */,
+				BCE3D2A71C80272200A20F7A /* Student.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,6 +304,7 @@
 				BCE3D2A41C80226A00A20F7A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
